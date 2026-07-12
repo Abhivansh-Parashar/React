@@ -1,0 +1,18 @@
+@import "tailwindcss";
+#right::-webkit-scrollbar {
+    display: none;
+}
+* {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+#card {
+    transition: transform 100ms ease-in-out;
+}
+
+#card:hover {
+    transform: translateY(-4px);
+}
